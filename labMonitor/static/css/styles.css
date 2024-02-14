@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.timetable {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.day-column {
+    background: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.day-column h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.course-entry {
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #dedede;
+    border-radius: 4px;
+    border-left: 5px solid #000;
+    font-size: 0.9em;
+}
+
+/* Color coding for different years */
+.first-year {
+    border-left-color: #FFD54F;
+}
+
+.second-year {
+    border-left-color: #4FC3F7;
+}
+
+.third-year {
+    border-left-color: #AED581;
+}
+
+.fourth-year {
+    border-left-color: #BA68C8;
+}
+
+/* Styling for the university logo */
+.logo {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+.author-credit {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Styling for the colour key */
+.color-key {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.color-key .key {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Additional styles for the colour key */
+.first-year-key {
+    background-color: #FFD54F;
+}
+
+.second-year-key {
+    background-color: #4FC3F7;
+}
+
+.third-year-key {
+    background-color: #AED581;
+}
+
+.fourth-year-key {
+    background-color: #BA68C8;
+}
+
+/* Clock styling */
+.clock {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Current lab highlighting */
+.current-course {
+    border: 2px solid #444; /* Bold outline for current lab */
+    background-color: #ffff99 !important; /* Highlight color, `!important` to override other background */
+}
+
+.year-filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.year-filters button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.year-filters button:hover {
+    background-color: #ddd;
+}
+
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,133 @@
+[   {
+        "day": "Monday",
+        "time_start": "09:00",
+        "time_end": "11:00",
+        "course_name": "Cryptography",
+        "year_of_study": "Third Year"
+    },
+    {
+        "day": "Monday",
+        "time_start": "11:00",
+        "time_end": "13:00",
+        "course_name": "Computer Graphics",
+        "year_of_study": "Third Year"
+    },
+    {
+        "day": "Monday",
+        "time_start": "14:00",
+        "time_end": "16:00",
+        "course_name": "Advanced Functional Programming",
+        "year_of_study": "Second Year"
+    },
+    {
+        "day": "Monday",
+        "time_start": "16:00",
+        "time_end": "18:00",
+        "course_name": "Algorithms Correctness and Efficiency",
+        "year_of_study": "Second Year"
+    },
+    {
+        "day": "Tuesday",
+        "time_start": "09:00",
+        "time_end": "11:00",
+        "course_name": "Data Science",
+        "year_of_study": "Fourth Year/MSc"
+    },
+    {
+        "day": "Tuesday",
+        "time_start": "11:00",
+        "time_end": "13:00",
+        "course_name": "Designing Intelligent Agents",
+        "year_of_study": "Third Year"
+    },
+    {
+        "day": "Tuesday",
+        "time_start": "13:00",
+        "time_end": "15:00",
+        "course_name": "Games",
+        "year_of_study": "Fourth Year/MSc"
+    },
+    {
+        "day": "Tuesday",
+        "time_start": "15:00",
+        "time_end": "17:00",
+        "course_name": "Databases and Interfaces",
+        "year_of_study": "First Year"
+    },
+    {
+        "day": "Wednesday",
+        "time_start": "09:00",
+        "time_end": "11:00",
+        "course_name": "PGP",
+        "year_of_study": "First Year"
+    },
+    {
+        "day": "Wednesday",
+        "time_start": "11:00",
+        "time_end": "13:00",
+        "course_name": "Computer Vision",
+        "year_of_study": "Third Year"
+    },
+    {
+        "day": "Thursday",
+        "time_start": "11:00",
+        "time_end": "13:00",
+        "course_name": "Computer Security",
+        "year_of_study": "Third Year"
+    },
+    {
+        "day": "Thursday",
+        "time_start": "13:00",
+        "time_end": "15:00",
+        "course_name": "Group Project",
+        "year_of_study": "Second Year"
+    },
+    {
+        "day": "Thursday",
+        "time_start": "15:00",
+        "time_end": "16:00",
+        "course_name": "C++ Programming",
+        "year_of_study": "Second Year"
+    },
+    {
+        "day": "Thursday",
+        "time_start": "16:00",
+        "time_end": "18:00",
+        "course_name": "ISE",
+        "year_of_study": "First Year"
+    },
+    {
+        "day": "Friday",
+        "time_start": "09:00",
+        "time_end": "10:00",
+        "course_name": "Distributed Systems",
+        "year_of_study": "Second Year"
+    },
+    {
+        "day": "Friday",
+        "time_start": "10:00",
+        "time_end": "11:00",
+        "course_name": "Image Processing",
+        "year_of_study": "Third Year"
+    },
+    {
+        "day": "Friday",
+        "time_start": "11:00",
+        "time_end": "13:00",
+        "course_name": "Foundations of Artificial Intelligence",
+        "year_of_study": "First Year"
+    },
+    {
+        "day": "Friday",
+        "time_start": "13:00",
+        "time_end": "15:00",
+        "course_name": "Ai Methods",
+        "year_of_study": "First Year"
+    },
+    {
+        "day": "Friday",
+        "time_start": "15:00",
+        "time_end": "17:00",
+        "course_name": "Mixed Reality",
+        "year_of_study": "Fourth Year/MSc"
+    } ]

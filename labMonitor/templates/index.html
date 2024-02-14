@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="University Logo" class="logo">
+    <div class="container">
+        <h1>Lab Monitor</h1>
+        <p class="author-credit">by Jared Pollack</p>
+        <h3 >A32 Lab Times - Jubilee Campus for Computer Science</h3>
+        <div id="clock" class="clock"></div>
+        <div class="color-key">
+            <div class="key first-year-key">First Year</div>
+            <div class="key second-year-key">Second Year</div>
+            <div class="key third-year-key">Third Year</div>
+            <div class="key fourth-year-key">Fourth Year/MSc</div>
+        </div>
+        <!-- Add this to your existing HTML, within the 'container' div, just before the 'timetable' div -->
+        <div class="year-filters">
+            <button onclick="filterByYear('')">All Years</button>
+            <button onclick="filterByYear('first-year')">First Year</button>
+            <button onclick="filterByYear('second-year')">Second Year</button>
+            <button onclick="filterByYear('third-year')">Third Year</button>
+            <button onclick="filterByYear('fourth-year')">Fourth Year/MSc</button>
+        </div>
+        <div id="timetable" class="timetable">
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='javascript/scripts.js') }}"></script>
+</body>
+</html>
